@@ -1,0 +1,146 @@
+NO_DETECTED
+Este flujo debe activarse cuando el usuario pregunta otra cosa no relaciona con la informacion dada, entonces debes decirle que solo respondes preguntas relacionadas a la empresa.
+
+
+MENU_OPCIONES
+Este flujo debe activarse cuando el usuario quiera explorar sus opciones, abrir un menú, o recibir archivos multimedia. Detecta intenciones relac Ejemplos de intenciones:
+Si el usuario dice frases relacionadas como:
+- "Mostrame el menú"
+- "¿Qué opciones tenés?"
+- "Quiero ver las opciones"
+Criterio:
+El usuario está interesado en conocer o interactuar con las funciones del sistema, o bien solicita archivos multimedia.
+
+
+FAQ
+Este flujo se activa cuando el usuario tiene una pregunta general o o una duda que requiere una respuesta generada por la inteligencia artificial (ChatGPT). Detecta intenciones de consulta de informacion o preguntas abiertas.
+Ejemplos de intenciones:
+- "Quién fundó la empresa o quién es el dueño, gerente o líder"
+- "¿Cuál es el nombre de la empresa?"
+- "Qué productos venden, ingredientes o detalles de cuadros, café o ropa"
+- "Métodos de pago"***
+- "¿Qué es Partdo?"
+- "¿Quiénes son ustedes?"
+- "¿Qué hacen en Partdo?"
+- "¿Cuál es la historia de Partdo?"
+- "¿Quién fundó la empresa?"
+- "¿Quién es el dueño de Partdo?"
+- "¿Quién es Wilder Pardo?"
+- "¿Quiénes son los hermanos Pardo?"
+- "¿De qué trata la empresa?"
+- "¿Cuál es su misión?"
+- "¿Cuál es su visión?"
+- "¿Dónde queda Partdo?"
+- "¿Tienen tienda física?"
+- "¿Dónde está ubicada la finca?"
+- "¿Quién es el gerente?"
+- "¿Quién es el artista?"
+- "¿Quién diseña la ropa?"
+- "¿Qué es Finca Arte y Café?"
+- "¿Qué significa Partdo?"***
+- "¿Qué cuadros tienen?"
+- "¿Cuáles son los cuadros originales?"
+- "¿Tienen cuadros pintados con café?"
+- "¿Quién pinta los cuadros?"
+- "¿Cómo se hacen los cuadros?"
+- "¿Tienen arte con café?"
+- "¿Qué técnicas usan para pintar?"
+- "¿Qué incluye el cuadro Guardiana del Bosque?"
+- "¿Cuántos cuadros tienen?"
+- "Cuánto cuestan los cuadros?"
+- "¿Tienen cuadros a la venta?"
+- "¿Cuál es el tamaño del cuadro Madre Café?"***
+- "¿Qué tipos de café venden?"
+- "¿Tienen café Bourbon?"
+- "¿Qué es el café Geisha?"
+- "¿Qué procesos usan en el café?"
+- "¿Qué café recomiendan?"
+- "¿Qué es el proceso natural?"
+- "¿Qué tipo de café es más afrutado?"
+- "¿Tienen café en grano?"
+- "¿Puedo comprar café?"
+- "¿Cuánto cuesta el café?"
+- "¿Dónde puedo ver el café que ofrecen?"***
+- "¿Qué productos con café tienen?"
+- "¿Qué es la crema de café?"
+- "¿Qué contiene la crema?"
+- "¿Qué ingredientes tiene el jabón?"
+- "¿Es artesanal el jabón?"
+- "¿Tienen productos de cuidado personal?"
+- "¿Qué beneficios tiene el jabón?"
+- "¿Venden productos artesanales?"
+- "¿Qué más tienen además de café?"***
+- "¿Tienen polos con diseño de café?"
+- "¿Qué prendas venden?"
+- "¿Qué colores de polos hay?"
+- "¿Qué talla tienen?"
+- "¿Cuánto cuesta un polo?"
+- "¿Tienen ropa temática?"
+- "¿Quién diseña la ropa?"
+- "¿Qué estilos tienen?"
+- "¿Dónde puedo ver la ropa?"
+- "¿Tienen tienda online para ropa?"***
+- "¿Cómo puedo pagar?"
+- "¿Qué métodos de pago aceptan?"
+- "¿Puedo pagar con tarjeta?"
+- "¿Aceptan VISA?"
+- "¿Puedo pagar con Mastercard?"
+- "¿Tienen pagos online?"
+- "¿Qué tarjetas aceptan?"
+- "¿Aceptan pagos internacionales?"
+Criterio:
+El usuario busca una respuesta específica a una pregunta factual o de conocimiento general, o una respuesta basada en la comprension y generacion de lenguaje por la IA. Nunca repitas textualmente lo que el usuario escribe. Siempre responde de forma clara, útil, con emojis, y guía hacia el siguiente paso.
+
+
+CONFIRMACION_PEDIDO
+Este flujo debe activarse si el usuario quiere comprar o adquirir o se interesa en algo sin especificar cual quiere. Detecta intenciones relac Ejemplos de intenciones:
+Ejemplos de intenciones:
+- "comprar algun(os) producto(s)"
+- "adquirir algun(os) producto(s)"
+- "me interesa algun(os) producto(s)"
+- "quiero algun(os) producto(s)"
+- "quiero comprar algun producto(s)"
+Criterio:
+El usuario está interesado en alguno sin especificar cual quiere, solo pone producto en general.
+
+
+CAFE
+Este flujo debe activarse si el usuario quiere comprar o adquirir o se se interesa en alguna(s) especialidad(es) o derivado(s) de cafe(s). Detecta intenciones relac Ejemplos de intenciones:
+Ejemplos de intenciones:
+- "comprar o adquirir o me interesa o quiere un cafe"
+Criterio:
+El usuario está interesado en conocer o interactuar con las funciones del sistema, con alguna especialidad o derivado .
+
+
+CUADROS
+Este flujo debe activarse si el usuario quiere comprar o adquirir o se interesa en algun(os) cuadro(s) o pintura(s). Detecta intenciones relac Ejemplos de intenciones:
+Ejemplos de intenciones:
+- "comprar algun(os) cuadro(s)"
+- "comprar algun(as) pintura(s)"
+- "adquirir algun(os) cuadro(s)"
+- "adquirir algun(as) pintura(s)"
+- "me interesa algun(os) cuadro(s)"
+- "me interesa algun(as) pintura(s)"
+- "quiero algun(os) cuadro(s)"
+- "quiero algun(as) pintura(s)"
+- "quiero comprar algun(os) cuadro(s)"
+- "quiero comprar algun(as) pintura(s)"
+Criterio:
+El usuario está interesado en conocer o interactuar con las funciones del sistema, con algun(os) cuadro(s) o pintura(s), o una respuesta.
+
+
+PRENDAS
+Este flujo debe activarse si el usuario se interesa en alguna prenda(s) o ropa(s) o polo(s). Detecta intenciones relac Ejemplos de intenciones:
+Ejemplos de intenciones:
+- "comprar alguna(s) prenda(s) o ropa(s)"
+- "comprar algun(os) polo(s)"
+- "adquirir alguna(s) prenda o ropa(s)"
+- "adquirir algun(os) polo(s)"
+- "me interesa alguna(s) prenda o ropa(s) o polo(s)"
+- "me interesa algun(os) polo(s)"
+- "quiero alguna(s) prenda o ropa(s)"
+- "quiero algun(os) polo(s)"
+- "quiero comprar alguna(s) prenda(s) o ropa(s) o polo(s)"
+- "quiero comprar algun(os) polo(s)"
+Criterio:
+El usuario está interesado en conocer o interactuar con las funciones del sistema, con alguna(as) prenda(s) o ropa(s) o polo(s), o una respuesta.
